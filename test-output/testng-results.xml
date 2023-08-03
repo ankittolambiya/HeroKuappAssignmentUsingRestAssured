@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="16" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-10T14:30:26 IST" name="Suite" finished-at="2023-07-10T14:30:36 IST" duration-ms="9774">
+    <groups>
+    </groups>
+    <test started-at="2023-07-10T14:30:26 IST" name="Test" finished-at="2023-07-10T14:30:36 IST" duration-ms="9774">
+      <class name="api.test.GetBookingIdsTest">
+        <test-method signature="test_GetBookingIdsList()[pri:0, instance:api.test.GetBookingIdsTest@2805d709]" started-at="2023-07-10T14:30:30 IST" name="test_GetBookingIdsList" finished-at="2023-07-10T14:30:31 IST" duration-ms="1605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_GetBookingIdsList -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.GetBookingIdsTest@2805d709]" started-at="2023-07-10T14:30:30 IST" name="setUp" finished-at="2023-07-10T14:30:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testMethodName(java.lang.reflect.Method)[pri:0, instance:api.test.GetBookingIdsTest@2805d709]" started-at="2023-07-10T14:30:30 IST" name="testMethodName" finished-at="2023-07-10T14:30:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api.test.GetBookingIdsTest.test_GetBookingIdsList()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:api.test.GetBookingIdsTest@2805d709]" started-at="2023-07-10T14:30:31 IST" name="tearDown" finished-at="2023-07-10T14:30:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="capture_TestStatus(org.testng.ITestResult)[pri:0, instance:api.test.GetBookingIdsTest@2805d709]" started-at="2023-07-10T14:30:31 IST" name="capture_TestStatus" finished-at="2023-07-10T14:30:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_GetBookingIdsList status=SUCCESS method=GetBookingIdsTest.test_GetBookingIdsList()[pri:0, instance:api.test.GetBookingIdsTest@2805d709] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture_TestStatus -->
+      </class> <!-- api.test.GetBookingIdsTest -->
+      <class name="api.test.GetBookingIdTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.GetBookingIdTest@2ea41516]" started-at="2023-07-10T14:30:31 IST" name="setUp" finished-at="2023-07-10T14:30:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testMethodName(java.lang.reflect.Method)[pri:0, instance:api.test.GetBookingIdTest@2ea41516]" started-at="2023-07-10T14:30:31 IST" name="testMethodName" finished-at="2023-07-10T14:30:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api.test.GetBookingIdTest.test_GETBooking(org.testng.ITestContext)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodName -->
+        <test-method signature="test_GETBooking(org.testng.ITestContext)[pri:0, instance:api.test.GetBookingIdTest@2ea41516]" started-at="2023-07-10T14:30:31 IST" name="test_GETBooking" finished-at="2023-07-10T14:30:33 IST" duration-ms="1219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7066363]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_GETBooking -->
+        <test-method is-config="true" signature="capture_TestStatus(org.testng.ITestResult)[pri:0, instance:api.test.GetBookingIdTest@2ea41516]" started-at="2023-07-10T14:30:33 IST" name="capture_TestStatus" finished-at="2023-07-10T14:30:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_GETBooking status=SUCCESS method=GetBookingIdTest.test_GETBooking(org.testng.ITestContext)[pri:0, instance:api.test.GetBookingIdTest@2ea41516] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture_TestStatus -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:api.test.GetBookingIdTest@2ea41516]" started-at="2023-07-10T14:30:33 IST" name="tearDown" finished-at="2023-07-10T14:30:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- api.test.GetBookingIdTest -->
+      <class name="api.test.CreateTokenTest">
+        <test-method is-config="true" signature="testMethodName(java.lang.reflect.Method)[pri:0, instance:api.test.CreateTokenTest@3c7f66c4]" started-at="2023-07-10T14:30:33 IST" name="testMethodName" finished-at="2023-07-10T14:30:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api.test.CreateTokenTest.test_POSTGenerateToken()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodName -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.CreateTokenTest@3c7f66c4]" started-at="2023-07-10T14:30:33 IST" name="setUp" finished-at="2023-07-10T14:30:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_POSTGenerateToken()[pri:0, instance:api.test.CreateTokenTest@3c7f66c4]" started-at="2023-07-10T14:30:33 IST" name="test_POSTGenerateToken" finished-at="2023-07-10T14:30:34 IST" duration-ms="1062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_POSTGenerateToken -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:api.test.CreateTokenTest@3c7f66c4]" started-at="2023-07-10T14:30:34 IST" name="tearDown" finished-at="2023-07-10T14:30:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="capture_TestStatus(org.testng.ITestResult)[pri:0, instance:api.test.CreateTokenTest@3c7f66c4]" started-at="2023-07-10T14:30:34 IST" name="capture_TestStatus" finished-at="2023-07-10T14:30:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_POSTGenerateToken status=SUCCESS method=CreateTokenTest.test_POSTGenerateToken()[pri:0, instance:api.test.CreateTokenTest@3c7f66c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture_TestStatus -->
+      </class> <!-- api.test.CreateTokenTest -->
+      <class name="api.test.CreateBookingTest">
+        <test-method is-config="true" signature="reportSetup()[pri:0, instance:api.test.CreateBookingTest@52af26ee]" started-at="2023-07-10T14:30:26 IST" name="reportSetup" finished-at="2023-07-10T14:30:26 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method is-config="true" signature="testMethodName(java.lang.reflect.Method)[pri:0, instance:api.test.CreateBookingTest@52af26ee]" started-at="2023-07-10T14:30:26 IST" name="testMethodName" finished-at="2023-07-10T14:30:26 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api.test.CreateBookingTest.test_POSTBooking()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodName -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.CreateBookingTest@52af26ee]" started-at="2023-07-10T14:30:26 IST" name="setUp" finished-at="2023-07-10T14:30:26 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_POSTBooking()[pri:0, instance:api.test.CreateBookingTest@52af26ee]" started-at="2023-07-10T14:30:26 IST" name="test_POSTBooking" finished-at="2023-07-10T14:30:30 IST" duration-ms="3608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_POSTBooking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:api.test.CreateBookingTest@52af26ee]" started-at="2023-07-10T14:30:30 IST" name="tearDown" finished-at="2023-07-10T14:30:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="capture_TestStatus(org.testng.ITestResult)[pri:0, instance:api.test.CreateBookingTest@52af26ee]" started-at="2023-07-10T14:30:30 IST" name="capture_TestStatus" finished-at="2023-07-10T14:30:30 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_POSTBooking status=SUCCESS method=CreateBookingTest.test_POSTBooking()[pri:0, instance:api.test.CreateBookingTest@52af26ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture_TestStatus -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:api.test.CreateBookingTest@52af26ee]" started-at="2023-07-10T14:30:36 IST" name="generateReport" finished-at="2023-07-10T14:30:36 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- api.test.CreateBookingTest -->
+      <class name="api.test.UpdateBookingTest">
+        <test-method is-config="true" signature="testMethodName(java.lang.reflect.Method)[pri:0, instance:api.test.UpdateBookingTest@f0da945]" started-at="2023-07-10T14:30:34 IST" name="testMethodName" finished-at="2023-07-10T14:30:34 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api.test.UpdateBookingTest.test_PUTBooking(org.testng.ITestContext)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodName -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.UpdateBookingTest@f0da945]" started-at="2023-07-10T14:30:34 IST" name="setUp" finished-at="2023-07-10T14:30:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_PUTBooking(org.testng.ITestContext)[pri:0, instance:api.test.UpdateBookingTest@f0da945]" started-at="2023-07-10T14:30:34 IST" name="test_PUTBooking" finished-at="2023-07-10T14:30:35 IST" duration-ms="1089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7066363]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_PUTBooking -->
+        <test-method is-config="true" signature="capture_TestStatus(org.testng.ITestResult)[pri:0, instance:api.test.UpdateBookingTest@f0da945]" started-at="2023-07-10T14:30:35 IST" name="capture_TestStatus" finished-at="2023-07-10T14:30:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_PUTBooking status=SUCCESS method=UpdateBookingTest.test_PUTBooking(org.testng.ITestContext)[pri:0, instance:api.test.UpdateBookingTest@f0da945] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture_TestStatus -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:api.test.UpdateBookingTest@f0da945]" started-at="2023-07-10T14:30:35 IST" name="tearDown" finished-at="2023-07-10T14:30:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- api.test.UpdateBookingTest -->
+      <class name="api.test.DeleteBookingTest">
+        <test-method is-config="true" signature="testMethodName(java.lang.reflect.Method)[pri:0, instance:api.test.DeleteBookingTest@ffaa6af]" started-at="2023-07-10T14:30:35 IST" name="testMethodName" finished-at="2023-07-10T14:30:35 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api.test.DeleteBookingTest.test_DELETEBooking(org.testng.ITestContext)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodName -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.DeleteBookingTest@ffaa6af]" started-at="2023-07-10T14:30:35 IST" name="setUp" finished-at="2023-07-10T14:30:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_DELETEBooking(org.testng.ITestContext)[pri:0, instance:api.test.DeleteBookingTest@ffaa6af]" started-at="2023-07-10T14:30:35 IST" name="test_DELETEBooking" finished-at="2023-07-10T14:30:36 IST" duration-ms="1123" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7066363]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Cannot parse object because no supported Content-Type was specified in response. Content-Type was 'text/plain; charset=utf-8'.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Cannot parse object because no supported Content-Type was specified in response. Content-Type was 'text/plain; charset=utf-8'.
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:94)
+at io.restassured.internal.mapping.ObjectMapping$deserialize$0.call(Unknown Source)
+at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:226)
+at io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:169)
+at api.test.DeleteBookingTest.test_DELETEBooking(DeleteBookingTest.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_DELETEBooking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:api.test.DeleteBookingTest@ffaa6af]" started-at="2023-07-10T14:30:36 IST" name="tearDown" finished-at="2023-07-10T14:30:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="capture_TestStatus(org.testng.ITestResult)[pri:0, instance:api.test.DeleteBookingTest@ffaa6af]" started-at="2023-07-10T14:30:36 IST" name="capture_TestStatus" finished-at="2023-07-10T14:30:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_DELETEBooking status=FAILURE method=DeleteBookingTest.test_DELETEBooking(org.testng.ITestContext)[pri:0, instance:api.test.DeleteBookingTest@ffaa6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture_TestStatus -->
+      </class> <!-- api.test.DeleteBookingTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

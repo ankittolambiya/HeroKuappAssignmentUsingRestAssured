@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 5, Errors: 0, Skipped: 21, Time elapsed: 0.982 s <<< FAILURE! - in TestSuite
+testMethodName(api.test.CreateBookingTest)  Time elapsed: 0.677 s  <<< FAILURE!
+java.lang.NullPointerException
+
+testMethodName(api.test.CreateTokenTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.NullPointerException
+
+testMethodName(api.test.GetBookingIdsTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+testMethodName(api.test.GetBookingIdTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException
+
+testMethodName(api.test.UpdateBookingTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException
+
