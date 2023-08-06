@@ -2,6 +2,8 @@ package api.payload;
 
 public class CreateBookingRequest {
 
+	// Added comment in CreateBookingRequest payload
+	
 	private String firstname;
 	private String lastname;
 	private int totalprice;
